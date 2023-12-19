@@ -1,0 +1,198 @@
+.Shows-xs {
+  display: none !important;
+}
+.Shows-sm {
+  display: none !important;
+}
+.Shows-md {
+  display: none !important;
+}
+body {
+  font-family: "SVN-Avo" !important;
+  font-size: 14px;
+  height: 100%;
+  background-color: #000000;
+}
+html {
+  height: 100%;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+p {
+  font-size: 14px;
+}
+a {
+  cursor: pointer;
+  color: #008dfc;
+  transition: all 0.3s;
+}
+a:hover {
+  color: #008dfc !important;
+}
+.section_1 {
+  height: 1354px;
+  width: 1920px ;
+  background: url(../images/Bg-2023.png) no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+.section_1 .user {
+  position: absolute;
+  top: 1094px;
+  right: 331px;
+}
+.section_1 .user .user_content {
+  position: relative;
+  width: 400px;
+  text-align: center;
+}
+.section_1 .user img {
+  border: 2px solid #FC5427;
+  border-radius: 120px;
+}
+.section_1 .user .name {
+  color: #FFF;
+  position: absolute;
+  bottom: -64px;
+  width: 400px;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.content {
+  width: 1184px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.content h1 {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.content .container {
+  display: flex;
+  height: 90px;
+  justify-content: center;
+}
+.content .large,
+.content .small {
+  align-self: flex-end;
+  margin-right: 16px;
+  color: #FE592A;
+}
+.content .large {
+  font-size: 64px;
+  font-weight: bold;
+}
+.content .small {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 67px;
+}
+.content .text {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 8px;
+}
+.content .group_banner {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.content .group_banner .banner {
+  width: 368px;
+  height: 550px;
+  position: relative;
+}
+.content .group_banner img {
+  height: 100%;
+}
+.content .group_banner .title {
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+.content .group_banner .title .danh-muc {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+.content .group_banner .title .container {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+}
+.content .group_banner .title .large,
+.content .group_banner .title .small {
+  align-self: flex-end;
+  margin-right: 8px;
+  color: #ffffff;
+}
+.content .group_banner .title .large {
+  font-size: 40px;
+  font-weight: bold;
+}
+.content .group_banner .title .small {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 48px;
+}
+.content .group_banner .rank-content {
+  position: absolute;
+  bottom: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.content .group_banner .rank-content .col {
+  width: 147px;
+}
+.content .group_banner .rank-content .col .rank_number {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.content .group_banner .rank-content .col .rank_info {
+  background-color: #fff;
+  height: 32px;
+  width: 100%;
+  border-radius: 4px;
+  background: #FFF;
+  margin-top: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 4px 4px 0px rgba(0, 0, 0, 0.07), 0px 9px 6px 0px rgba(0, 0, 0, 0.04), 0px 17px 7px 0px rgba(0, 0, 0, 0.01), 0px 26px 7px 0px rgba(0, 0, 0, 0);
+}
+.content .cate_phimbo .rank_info {
+  color: #1D1CE5;
+}
+.content .cate_giaitri .rank_info {
+  color: #2F00AF;
+}
+.content .cate_nghesi .rank_info {
+  color: #360940;
+}
